@@ -5,6 +5,8 @@ on:
     branches: ["main", "develop"]
   pull_request:
     branches: ["main"]
+  schedule:
+    - cron: "0 0 * * *"
 
 env:
   BRANCH_NAME: ${{ github.head_ref || github.ref_name }}
