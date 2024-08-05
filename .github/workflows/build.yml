@@ -14,7 +14,7 @@ env:
   IMAGE_NAME: bitnami-postgresql-pgvector
   PG_VERSION: 16.3.0
   PG_MAJOR_VERSION: 16
-  PGVECTOR_VERSION: 0.7.2
+  PGVECTOR_VERSION: 0.7.4
 
 jobs:
   build:
