@@ -56,7 +56,7 @@ jobs:
         with:
           images: |
             bhanunexus/bitnami-postgresql-pgvector
-            ${{ env.REGISTRY }}/BhanuNexus/${{ env.IMAGE_NAME }}
+            ${{ env.REGISTRY }}/BhanuKorthiwada/${{ env.IMAGE_NAME }}
           tags: |
             type=edge
             type=ref,event=branch
